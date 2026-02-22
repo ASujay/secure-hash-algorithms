@@ -1,0 +1,12 @@
+.{
+    .name = .shatool,
+    .version = "0.0.0",
+    .fingerprint = 0x1ae27cfa29b7c3c, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0-dev.2565+684032671",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
